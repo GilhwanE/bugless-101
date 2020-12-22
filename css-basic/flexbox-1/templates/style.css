@@ -16,19 +16,14 @@ a {
 }
 
 .tab-menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
   padding-left: 0;
   border-bottom: 1px solid #e5eaef;
   list-style-type: none;
 }
-
-.tab-menu::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
 .tab-menu-item {
-  float: left;
   margin-right: 16px;
 }
 
@@ -51,3 +46,4 @@ a {
 }
 
 /* ▼ WHERE YOUR CODE BEGINS */
+

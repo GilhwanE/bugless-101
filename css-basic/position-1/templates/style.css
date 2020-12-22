@@ -15,3 +15,36 @@ h1 {
 }
 
 /* ▼ WHERE YOUR CODE BEGINS */
+.user-card{
+  display: flex;
+  align-items: center;
+  
+}
+
+.user-photo{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  
+
+}
+.user-photo img{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.user-name{
+  font-size: 16px;
+}
+
+.user-status{
+  position: absolute;
+  right: -2px;
+  bottom: -2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: #21D891;
+}

@@ -55,3 +55,43 @@ button {
 }
 
 /* ▼ WHERE YOUR CODE BEGINS */
+
+.card{
+  width: 400px;
+}
+
+.card-carousel{
+  position: relative;
+}
+.card-carousel img{
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+}
+.card-carousel button{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.card-carousel #prev{
+  left: 0;
+}
+
+.card-carousel #next{
+ right: 0;
+}
+
+.card-content{
+  padding: 12px 20px;
+}
+
+.card-content strong{
+  display: block;
+  margin-top: 8px;
+  text-align: right;
+}
+
+
